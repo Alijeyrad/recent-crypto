@@ -1,0 +1,13 @@
+.footer {
+  text-align: left;
+  padding: 15px 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.refreshButton {
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}

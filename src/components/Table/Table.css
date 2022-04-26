@@ -1,0 +1,38 @@
+table, th, td {
+  border: 3px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+table.visible {
+  opacity: 1;
+}
+
+th, td {
+  /* background-color: rgb(187, 235, 235); */
+  padding: 12px 3px;
+}
+
+th {
+  background-color: #9cc9c9;
+ 
+}
+
+table {
+  width: 100%;
+  max-width: 480px;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+
+.loading {
+  font-size: 22px;
+  margin: 20px;
+}
